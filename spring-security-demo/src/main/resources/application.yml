@@ -13,3 +13,10 @@ spring:
 security:
   basic:
     enabled: false
+
+
+tutu:
+  security:
+    browser:
+#      loginPage: /demo-login.html
+      loginType: REDIRECT
